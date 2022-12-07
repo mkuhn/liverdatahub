@@ -24,7 +24,7 @@ OUH	GALA-ALD	SampleID	Liver	Mass spec	Proteome	Human proteins	Uniprot identifier
 OUH	GALA-ALD	SampleID	Liver	RNAseq	miRNA	Human miRNA expression	miRNA	v1	raw	GALA-ALD_hepatic_miRNAs_Cq.v1.tsv	miRNA expression in liver tissue, provided by Styliani Georgiou
 OUH	GALA-ALD	SampleID	Metadata	-	-	Center-specific metadata	-	v1	-	GALA_ALD_centerspecific_data_V1.xlsx	Center-specific metadata for GALA-ALD
 OUH	GALA-ALD	SampleID	Metadata	-	-	Core metadata	-	v1	-	MicrobLiver_GALA_ALD_Core_V1.xlsx	Core metadata for GALA-ALD
-OUH	GALA-ALD	SampleID	Metadata	-	-	Outcome data	-	v2	-	GALA-ALD_outcome_data.v2.zip	Outcome data on the GALA-ALD cohort (death, liver-related events, infection), provided by Stine Johansen. Archive contains description.
+OUH	GALA-ALD	SampleID	Metadata	-	-	Outcome data	-	v3	-	GALA-ALD_outcome_data.v3.zip	Outcome data on the GALA-ALD cohort (death, liver-related events, infection), provided by Stine Johansen. Archive contains description.
 OUH	GALA-ALD	SampleID	Stool	Cell counts	-	Cell counts	-	v1	raw	GALA-ALD_cellcounting.v1.tsv	Cell counts provided by Helene B. Juel. Contains mean count and standard deviation of triplicate counts.
 OUH	GALA-ALD	Subject	Buffy coat	Genotyping	Illumina Infinium GSA 2.0	PRS	Relative score	v1	-	riskscores_ALD.v1.tsv	Polygenic risk scores. Genotyping was done once per subject! See Google Doc for description of scores.
 OUH	GALA-ALD	Subject	Buffy coat	Genotyping	Illumina Infinium GSA 2.0	SNPs	Allele dosage	v1	-	extractedsnps_ALD.v1.tsv	17 extracted SNPs. Genotyping was done once per subject! See Google Doc for description of SNPs.
@@ -44,19 +44,24 @@ OUH	GALA-ALD, GALA-HP	SampleID	Stool	Metatranscriptomics	Microbiome	Taxonomic co
 OUH	GALA-HP	SampleID	EDTA plasma	Olink	-	Cytokines	-	v1	-	QC_OlinkHP_wide.v1.tsv.gz	Olink Cytokine data, https://www.olink.com/products-services/target/inflammation/
 OUH	GALA-HP	SampleID	Metadata	-	-	Center-specific metadata	-	v2	-	GALA_HP_centerspecific_data_V2.xlsx	Center-specific metadata for GALA-HP
 OUH	GALA-HP	SampleID	Metadata	-	-	Core metadata	-	v1	-	MicrobLiver_GALA_HP_Core_V1.xls	Core metadata for GALA-HP
-OUH	GALA-HP	SampleID	Stool	Cell counts	-	Cell counts	-	v2	raw	GALA-HP_cellcounting.v2.tsv	Cell counts provided by Helene B. Juel. Contains mean count and standard deviation of triplicate counts.
+OUH	GALA-HP	SampleID	Metadata	-	-	Outcome data	-	v1	-	GALA-HP_mortality.v1.xlsx	Outcome data on the GALA-HP cohort (all-cause mortality), provided by Stine Johansen. 
+OUH	GALA-HP	SampleID	Stool	Cell counts	-	Cell counts	-	v3	raw	GALA-HP_cellcounting.v3.tsv	Cell counts provided by Evelina Stankevic. Contains mean count and standard deviation of triplicate counts.
 OUH	GALA-HP	Subject	Buffy coat	Genotyping	Illumina Infinium GSA 2.0	PRS	Relative score	v1	-	riskscores_HP.v1.tsv	Polygenic risk scores. Genotyping was done once per subject! See Google Doc for description of scores.
 OUH	GALA-HP	Subject	Buffy coat	Genotyping	Illumina Infinium GSA 2.0	SNPs	Allele dosage	v1	-	extractedsnps_HP.v1.tsv	17 extracted SNPs. Genotyping was done once per subject! See Google Doc for description of SNPs.
 OUH	Profermin	SampleID	EDTA plasma	Olink	-	Cytokines	-	v1	-	QC_OlinkPRF_wide.v1.tsv.gz	Olink Cytokine data, https://www.olink.com/products-services/target/inflammation/
 OUH	Profermin	SampleID	Liver	Mass spec	Lipidome	Lipids	Groups of lipids	v1	raw	Profermin_Liver_Lipidomics_positive_mode_normalized_by_IS.v1.tsv.gz	Metabolomics: lipids, provided by Andressa de Zawadzki
+OUH	Profermin	SampleID	Metadata	-	-	Center-specific metadata	-	v1	-	PRF_studyspecific_v1.xlsx	Center-specific metadata for Profermin
 OUH	Profermin	SampleID	Metadata	-	-	Core metadata	-	v1	-	MicrobLiver_Profermin_Core_V1.xlsx	Core metadata for Profermin clinical trial
 OUH	Profermin	SampleID	Plasma	Mass spec	Lipidome	Lipids	Groups of lipids	v1	raw	Profermin_plasma_lipidomics_positive_mode.v1.tsv	Plasma lipidomics
 OUH	Profermin	SampleID	Plasma	Mass spec	Metabolomics	Bile acids	Described in annotation file	v1	raw	Profermin_Plasma_Bile_Acids_Targeted_QQQ.v1.zip	Metabolomics: bile acids, provided by Andressa de Zawadzki
 OUH	Profermin	SampleID	Plasma	Mass spec	Metabolomics	SCFA	Described in annotation file	v1	raw	Profermin_Plasma_SCFA_GCMS.v1.zip	Metabolomics: short chain fatty acids, provided by Andressa de Zawadzki
+OUH	Profermin	SampleID	Stool	Cell counts	-	Cell counts	-	v1	raw	Profermin_cellcounting.v1.tsv	Cell counts provided by Evelina Stankevic. Contains mean count and standard deviation of triplicate counts.
 OUH	Profermin	SampleID	Stool	Metagenomics	Microbiome	Taxonomic composition	mOTUs v2.5	v1	raw	Profermin_mOTUSv2.5_counts.v1.tsv.gz	Taxonomic profiles computed with mOTUs v2.5 (three marker genes), processed at EMBL
 OUH	Profermin	Subject	Buffy coat	Genotyping	Illumina Infinium GSA 2.0	PRS	Relative score	v1	-	riskscores_PRF.v1.tsv	Polygenic risk scores. Genotyping was done once per subject! See Google Doc for description of scores.
 OUH	Profermin	Subject	Buffy coat	Genotyping	Illumina Infinium GSA 2.0	SNPs	Allele dosage	v1	-	extractedsnps_PRF.v1.tsv	17 extracted SNPs. Genotyping was done once per subject! See Google Doc for description of SNPs.
 OUH	Rifaximin	SampleID	Li-hep plasma	Olink	-	Cytokines	-	v1	-	QC_OlinkRFX_wide.v1.tsv.gz	Olink Cytokine data, https://www.olink.com/products-services/target/inflammation/
+OUH	Rifaximin	SampleID	Liver	Mass spec	Lipidome	Lipids	Groups of lipids	v1	raw	Rifaximin_liver_lipidomics_negative.v1.tsv.gz	Plasma lipidomics (negative mode; positive mode is a separate file!)
+OUH	Rifaximin	SampleID	Liver	Mass spec	Lipidome	Lipids	Groups of lipids	v1	raw	Rifaximin_liver_lipidomics_positive.v1.tsv.gz	Plasma lipidomics (positive mode; negative mode is a separate file!)
 OUH	Rifaximin	SampleID	Metadata	-	-	Core metadata	-	v1	-	MicrobLiver_Rifaximin_Core_V1.xlsx	Core metadata for Rifaximin clinical trial
 OUH	Rifaximin	SampleID	Plasma	Mass spec	Lipidome	Lipids	Groups of lipids	v2	raw	Rifaximin_Plasma_Lipidomics_Positive.v2.tsv	Lipidomics provided by Andressa de Zawadzki
 OUH	Rifaximin	SampleID	Plasma	Mass spec	Metabolomics	Bile acids	Described in annotation file	v1	raw	Rifaximin_Plasma_Bile_Acids_Targeted_QQQ.v1.zip	Metabolomics: bile acids, provided by Andressa de Zawadzki
@@ -72,6 +77,9 @@ RegionH	Gastric Bypass	SampleID	Liver	Mass spec	Proteome	Human proteins	Uniprot 
 RegionH	Gastric Bypass	SampleID	Metadata	-	-	Center-specific metadata	-	v1	-	MLGB_studyspecific_v1.xlsx	Center-specific metadata for Gastric Bypass
 RegionH	Gastric Bypass	SampleID	Metadata	-	-	Core metadata	-	v1	-	MicrobLiver_CoreHvidovreGBP_V1.xlsx	Core metadata for Gastric Bypass
 RegionH	Gastric Bypass	SampleID	Plasma	Mass spec	Lipidome	Lipids	Groups of lipids	v1	raw	MLGB_Plasma_Lipidomics.v1.tsv.gz	Lipidomics provided by Karolina Sulek
+RegionH	Gastric Bypass	SampleID	Plasma	Mass spec	Metabolomics	Bile acids	Described in annotation file	v1	raw	MicrobLiver_GB_Plasma_BileAcids_QQQ.v1.zip	Metabolomics: bile acids, provided by Karolina Sulek
+RegionH	Gastric Bypass	SampleID	Plasma	Mass spec	Metabolomics	Compounds	Described in annotation file	v1	raw	MicrobLiver_GB_Plasma_Metabolomics_GCMS.v1.zip	Metabolomics: compounds
+RegionH	Gastric Bypass	SampleID	Stool	Cell counts	-	Cell counts	-	v1	raw	MLGB_cellcounting.v1.tsv	Cell counts provided by Evelina Stankevic. Contains mean count and standard deviation of triplicate counts.
 RegionH	Gastric Bypass	SampleID	Stool	Mass spec	Metabolomics	Bile acids	Bile acids	v1	raw	MicrobLiver_GB_Fecal_BileAcids_QQQ.v1.zip	Fecal bile acids
 RegionH	Gastric Bypass	Subject	Buffy coat	Genotyping	Illumina Infinium GSA 2.0	PRS	Relative score	v1	-	riskscores_MLGB.v1.tsv	Polygenic risk scores. Genotyping was done once per subject! See Google Doc for description of scores.
 RegionH	Gastric Bypass	Subject	Buffy coat	Genotyping	Illumina Infinium GSA 2.0	SNPs	Allele dosage	v1	-	extractedsnps_MLGB.v1.tsv	17 extracted SNPs. Genotyping was done once per subject! See Google Doc for description of SNPs.
