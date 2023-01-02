@@ -63,6 +63,7 @@ OUH	Rifaximin	SampleID	Li-hep plasma	Olink	-	Cytokines	-	v1	-	QC_OlinkRFX_wide.v
 OUH	Rifaximin	SampleID	Liver	Mass spec	Lipidome	Lipids	Groups of lipids	v1	raw	Rifaximin_liver_lipidomics_negative.v1.tsv.gz	Plasma lipidomics (negative mode; positive mode is a separate file!)
 OUH	Rifaximin	SampleID	Liver	Mass spec	Lipidome	Lipids	Groups of lipids	v1	raw	Rifaximin_liver_lipidomics_positive.v1.tsv.gz	Plasma lipidomics (positive mode; negative mode is a separate file!)
 OUH	Rifaximin	SampleID	Metadata	-	-	Core metadata	-	v1	-	MicrobLiver_Rifaximin_Core_V1.xlsx	Core metadata for Rifaximin clinical trial
+OUH	Rifaximin	SampleID	Metadata	-	-	Center-specific metadata	-	v1	-	Rifaximin_Centerspecific.v1.xlsx	Center-specific metadata for Rifaximin clinical trial, including outcome
 OUH	Rifaximin	SampleID	Plasma	Mass spec	Lipidome	Lipids	Groups of lipids	v2	raw	Rifaximin_Plasma_Lipidomics_Positive.v2.tsv	Lipidomics provided by Andressa de Zawadzki
 OUH	Rifaximin	SampleID	Plasma	Mass spec	Metabolomics	Bile acids	Described in annotation file	v1	raw	Rifaximin_Plasma_Bile_Acids_Targeted_QQQ.v1.zip	Metabolomics: bile acids, provided by Andressa de Zawadzki
 OUH	Rifaximin	SampleID	Plasma	Mass spec	Metabolomics	Compounds	Described in annotation file	v1	raw	Rifaximin_Metabolomics_Plasma.v1.zip	Metabolomics: compounds
